@@ -10,15 +10,16 @@ header {
 }
 
 main {
-  width: 800px;
-  height: 600px;
+  width: 700px;
+  height: 800px;
+  margin: auto;
 }
 
 aside {
   width: 180px;
   border: 1px solid black;
   float: right;
-  margin-right: -680px;
+  margin-left: 500px;
   position: static;
   text-align: center;
 }
@@ -44,4 +45,7 @@ aside:active {
 button:active{
   color: black;
   background-color: white;
+}
+section{
+  text-align: center;
 }
